@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <title>รายงานผลการเรียน - ทับตะวัน งามดี</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Sarabun:wght@300;400;700&display=swap');
+
+        body {
+            font-family: 'Sarabun', sans-serif;
+            background-color: #f0f2f5;
+            margin: 0;
+            color: #333;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #05a743 0%, #038d38 100%);
+            color: white;
+            text-align: center;
+            padding: 10px 20px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            margin: 0px 0px 60px 0px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: -30px auto 40px; 
+            padding: 0 20px;
+        } 
+
+        .container {
+            max-width: 800px;
+            margin: -30px auto 40px; 
+            padding: 0 20px;
+        }
+        .card {
+            background: white;
+            border-radius: 10px;
+            padding: 10px;
+            margin-bottom: 15px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+            transition: transform 0.3s ease;
+        }
+        .card22 {
+            text-align: center;
+            border-radius: 0px;
+            padding: 0px;
+            transition: transform 0.3s ease;
+        }
+        .card1 {
+            background: white;
+            border-radius: 16px;
+            padding: 20px;
+            margin-bottom: 25px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+            transition: transform 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px); 
+        }
+
+
+        .card h2 {
+            margin-top: 0;
+            color: #05a743;
+            font-size: 1.4rem;
+            border-left: 5px solid #1ed1e9;
+            padding-left: 15px;
+            margin-bottom: 20px;
+        }
+
+        .center {
+        text-align: center;
+        }
+        header, nav {
+     text-align: center;
+     background: white;
+     margin: 20px 0;
+     padding: 20px;
+}
+
+     nav a {
+     text-decoration: none;
+     background: #02ff74;
+     border-radius: 5px;
+      color: white;
+      padding: 3px 8px;
+    }
+    nav a:hover{
+            transform: translateY(-10px);
+        }
+
+        .profile {
+            display: flex;
+            align-items: center;
+            gap: 30px;
+            flex-wrap: wrap;
+            
+        }
+
+        .profile img {
+            width: 140px;
+            height: 140px;
+            border-radius: 50%; 
+            border: 4px solid #fff;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            justify-self: flex-end;
+            
+        }
+        .profile img :hover {
+            transform: scale(1.03);
+            box-shadow: 20 4px 50px rgba(0, 0, 0, 0.2);
+        }
+        .info{
+             background-color: #1ed1e9;
+            margin: 0px;
+            padding: 0px;
+        }
+        .info p {
+            margin: 0px;
+            padding: 0px ;
+            font-size: 1.1rem;
+        }
+
+        .info strong {
+            color: #555;
+            width: 120px;
+            display: inline-block;
+        }
+
+        .grade-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .grade-item {
+            display: flex;
+            justify-content: space-between;
+            padding: 12px 0;
+            border-bottom: 1px dashed #eee;
+        }
+
+        .gpa-summary {
+            background: #e3f9eb;
+            padding: 15px;
+            border-radius: 10px;
+            text-align: right;
+            margin-top: 20px;
+        }
+
+        .gpa-summary strong {
+            font-size: 1.5rem;
+            color: #05a743;
+        }
+
+        .contact-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+        }
+
+        .contact-item {
+            background: #f8f9fa;
+            padding: 12px;
+            border-radius: 8px;
+            font-size: 0.95rem;
+        }
+        h1{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 40px;
+
+        .card010{
+            background-color: #05a743;
+        }
+
+
+        .footer {
+            text-align: center;
+            padding: 30px;
+            color: #888;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+<header class="header">
+    <h1>รายงานผลเกรด</h1>
+</header>
+
+<div class="container">
+
+
+     <nav role='navigation'>
+    <a href="#0">ข้อมูลนักศึกษา</a>
+    <a href="#0">ผลการเรียน</a>
+    <a href="#0">ติดต่อ</a>
+  </nav>
+
+    <section class="card1">
+        
+        <div class="profile">
+            <div>
+                <div class="info">
+                  <h2>Mr.Lumyai jai-Dee</h2>
+                  <p><strong>รหัสนักศึกษา:</strong> 674259015</p>
+                  <p><strong>ชื่อ-นามสกุล:</strong> ทับตะวัน งามดี</p>
+                  <p><strong>หมู่เรียน:</strong>  67/50 </p>
+                  <p><strong>อาจารย์ที่ปรึกษา:</strong> ผู้ช่วยศาสตราจารย์ ดร. อุษณีย์ ภักดีตระกูลวงศ์ </p>
+                  <p><strong>Github</strong><a href="https://github.com/thaptawon123">https://github.com/thaptawon123</a></>
+                </div>
+            </div>
+            <img src="File4download/Screenshot 2026-01-28 095615.png" alt="รูปนักศึกษา" class="profile img">
+        </div>
+        
+    </section>
+    <nav role='navigation'>
+    <a href="#0">ปี 1 เทอม 1 :2.00</a>
+    <a href="#0">ปี 1 เทอม 2 :2.00</a>
+    <a href="#0">ปี 2 เทอม 1 :2.00</a>
+  </nav>
+
+        
+        <div class="card">
+            เกรดเฉลี่ยสะสม (GPAX): <strong>2.00</strong>
+        </div>
+<footer class="footer">
+    <p>© 2026 Student Academic Report | วิศวกรรมซอฟต์แวร์</p>
+</footer>
+
+</body>
+</html>
